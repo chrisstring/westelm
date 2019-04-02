@@ -60,11 +60,12 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>cd "/Volumes/we.com/2 _ builds/2019/a-spring/"
-echo "Folder, Category, Filename" &gt; file-list.csv
 # set date
-date '+File Created %Y%m%d at %H%M, SPRING, 2019' &gt;&gt; file-list.csv
+date '+File Created %Y%m%d at %H%M, SPRING, 2019' &gt; file-list.csv
+# set headers
+echo "Folder,Category,Filename" &gt;&gt; file-list.csv
 # list only tifs
-find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//" &gt;&gt; file-list.csv</string>
+find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//;s/.tif//" &gt;&gt; file-list.csv</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -178,12 +179,10 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:303.000000</string>
+				<string>634.500000:328.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -240,11 +239,12 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>cd "/Volumes/we.com/2 _ builds/2019/b-summer/"
-echo "Folder, Category, Filename" &gt; file-list.csv
 # set date
-date '+File Created %Y%m%d at %H%M, SUMMER, 2019' &gt;&gt; file-list.csv
+date '+File Created %Y%m%d at %H%M, SUMMER, 2019' &gt; file-list.csv
+# set headers
+echo "Folder,Category,Filename" &gt;&gt; file-list.csv
 # list only tifs
-find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//" &gt;&gt; file-list.csv</string>
+find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//;s/.tif//" &gt;&gt; file-list.csv</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -358,12 +358,10 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:577.000000</string>
+				<string>634.500000:590.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -420,11 +418,12 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>cd "/Volumes/we.com/2 _ builds/2019/c-fall/"
-echo "Folder, Category, Filename" &gt; file-list.csv
 # set date
-date '+File Created %Y%m%d at %H%M, FALL, 2019' &gt;&gt; file-list.csv
+date '+File Created %Y%m%d at %H%M, FALL, 2019' &gt; file-list.csv
+# set headers
+echo "Folder,Category,Filename" &gt;&gt; file-list.csv
 # list only tifs
-find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//" &gt;&gt; file-list.csv</string>
+find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//;s/.tif//" &gt;&gt; file-list.csv</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -538,12 +537,10 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:856.000000</string>
+				<string>634.500000:773.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -600,11 +597,12 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>cd "/Volumes/we.com/2 _ builds/2019/d-holiday/"
-echo "Folder, Category, Filename" &gt; file-list.csv
 # set date
-date '+File Created %Y%m%d at %H%M, HOLIDAY, 2019' &gt;&gt; file-list.csv
+date '+File Created %Y%m%d at %H%M, HOLIDAY, 2019' &gt; file-list.csv
+# set headers
+echo "Folder,Category,Filename" &gt;&gt; file-list.csv
 # list only tifs
-find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//" &gt;&gt; file-list.csv</string>
+find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//;s/.tif//" &gt;&gt; file-list.csv</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -718,12 +716,185 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>641.500000:1091.000000</string>
+				<string>634.500000:956.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>cd "/Volumes/we.com/2 _ builds/2019/"
+# set date
+date '+File Created %Y%m%d at %H%M, MASTER, 2019' &gt; master-list.csv
+# set headers
+echo "Season,Folder,Category,Filename" &gt;&gt; master-list.csv
+# list only tifs
+find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;s/\.,//;s/.tif//" &gt;&gt; file-list.csv</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>759D22BA-A769-4599-B36B-D524773B4C34</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>ADD96E68-B9DA-42B3-8D90-CF8BD0A1DC77</string>
+				<key>UUID</key>
+				<string>CE5EBE3B-B8CE-4F83-BAC4-568D6BE6CC2B</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>634.500000:1139.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -733,21 +904,28 @@ find . -type f \( -name "*.tif" \) | sed -e "s/\//,/g;s/-[0-9][0-9][0-9].tif//g;
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>8B646114-CE6F-488D-AD13-28467C63939D</key>
-		<dict>
-			<key>from</key>
-			<string>095F7D22-998B-41C8-A56E-24AD349F7AF2 - 095F7D22-998B-41C8-A56E-24AD349F7AF2</string>
-			<key>to</key>
-			<string>8D53347A-18E4-4105-9C83-8FB9F004B23D - 8D53347A-18E4-4105-9C83-8FB9F004B23D</string>
-		</dict>
-		<key>F3C1C4C9-17A5-4997-9F47-CBE91816FA5B</key>
+		<key>618203FA-0996-45A5-AB86-D7062BB2F098</key>
 		<dict>
 			<key>from</key>
 			<string>8D53347A-18E4-4105-9C83-8FB9F004B23D - 8D53347A-18E4-4105-9C83-8FB9F004B23D</string>
 			<key>to</key>
 			<string>6C5C5712-15FE-4007-8FB8-E6904CA55627 - 6C5C5712-15FE-4007-8FB8-E6904CA55627</string>
 		</dict>
-		<key>F43A3F0A-32C5-4EEA-A9ED-A2659C4FE9D3</key>
+		<key>ADB02199-FED8-4D62-A277-24244FBAB8EE</key>
+		<dict>
+			<key>from</key>
+			<string>E982F707-26BE-4AE3-80B6-7BDAC558E344 - E982F707-26BE-4AE3-80B6-7BDAC558E344</string>
+			<key>to</key>
+			<string>CE5EBE3B-B8CE-4F83-BAC4-568D6BE6CC2B - CE5EBE3B-B8CE-4F83-BAC4-568D6BE6CC2B</string>
+		</dict>
+		<key>C16D5169-68A3-497C-B6F8-523CBEAEE66E</key>
+		<dict>
+			<key>from</key>
+			<string>095F7D22-998B-41C8-A56E-24AD349F7AF2 - 095F7D22-998B-41C8-A56E-24AD349F7AF2</string>
+			<key>to</key>
+			<string>8D53347A-18E4-4105-9C83-8FB9F004B23D - 8D53347A-18E4-4105-9C83-8FB9F004B23D</string>
+		</dict>
+		<key>D0B6B80D-3583-4940-AA62-E7BD71D7EBA0</key>
 		<dict>
 			<key>from</key>
 			<string>6C5C5712-15FE-4007-8FB8-E6904CA55627 - 6C5C5712-15FE-4007-8FB8-E6904CA55627</string>

@@ -34,11 +34,11 @@
 	<key>CFBundleIconFile</key>
 	<string>AutomatorApplet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.automator.2019 Folder Crawl-Running</string>
+	<string>com.apple.automator.folder-crawl-testing-script</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>2019 Folder Crawl-Running</string>
+	<string>folder-crawl-testing-script</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
